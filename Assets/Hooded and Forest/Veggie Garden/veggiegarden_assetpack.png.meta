@@ -1,0 +1,1555 @@
+fileFormatVersion: 2
+guid: 414641fadffa16e4a97ef2ab0a0cf190
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8665521109876412963
+    second: veggiegarden_assetpack_0
+  - first:
+      213: 8012219697387183521
+    second: veggiegarden_assetpack_1
+  - first:
+      213: -5073644005836159894
+    second: veggiegarden_assetpack_2
+  - first:
+      213: -1860315959146268074
+    second: veggiegarden_assetpack_3
+  - first:
+      213: -5344152915549757595
+    second: veggiegarden_assetpack_4
+  - first:
+      213: 3669335667729191167
+    second: veggiegarden_assetpack_5
+  - first:
+      213: 6104569758160096908
+    second: veggiegarden_assetpack_6
+  - first:
+      213: 4294058533771587069
+    second: veggiegarden_assetpack_7
+  - first:
+      213: -1513198649435094228
+    second: veggiegarden_assetpack_8
+  - first:
+      213: -1752489962575964818
+    second: veggiegarden_assetpack_9
+  - first:
+      213: 5936537275531173464
+    second: veggiegarden_assetpack_10
+  - first:
+      213: -7541325969379433294
+    second: veggiegarden_assetpack_11
+  - first:
+      213: 6089797633136790348
+    second: veggiegarden_assetpack_12
+  - first:
+      213: 8638520086224153558
+    second: veggiegarden_assetpack_13
+  - first:
+      213: 7121410134630480508
+    second: veggiegarden_assetpack_14
+  - first:
+      213: 6687304529774180241
+    second: veggiegarden_assetpack_15
+  - first:
+      213: -5289292933299518496
+    second: veggiegarden_assetpack_16
+  - first:
+      213: -407453215007786937
+    second: veggiegarden_assetpack_17
+  - first:
+      213: -5766884954566436328
+    second: veggiegarden_assetpack_18
+  - first:
+      213: -4672132017744923495
+    second: veggiegarden_assetpack_19
+  - first:
+      213: -2496504223664072897
+    second: veggiegarden_assetpack_20
+  - first:
+      213: 5747644839482722136
+    second: veggiegarden_assetpack_21
+  - first:
+      213: 4245211958154324334
+    second: veggiegarden_assetpack_22
+  - first:
+      213: -4897007849107906941
+    second: veggiegarden_assetpack_23
+  - first:
+      213: 2371680371129955752
+    second: veggiegarden_assetpack_24
+  - first:
+      213: -4543727680629156664
+    second: veggiegarden_assetpack_25
+  - first:
+      213: -6431277993672328259
+    second: veggiegarden_assetpack_26
+  - first:
+      213: -2969890486676561223
+    second: veggiegarden_assetpack_27
+  - first:
+      213: -3748585485855935680
+    second: veggiegarden_assetpack_28
+  - first:
+      213: -5311254579662458040
+    second: veggiegarden_assetpack_29
+  - first:
+      213: 865718207218106668
+    second: veggiegarden_assetpack_30
+  - first:
+      213: -7411617626013556173
+    second: veggiegarden_assetpack_31
+  - first:
+      213: -8182273871703922380
+    second: veggiegarden_assetpack_32
+  - first:
+      213: -115288667293196767
+    second: veggiegarden_assetpack_33
+  - first:
+      213: -9082659316687297263
+    second: veggiegarden_assetpack_34
+  - first:
+      213: 3861090798252144366
+    second: veggiegarden_assetpack_35
+  - first:
+      213: -295521688325634160
+    second: veggiegarden_assetpack_36
+  - first:
+      213: 638478782957619612
+    second: veggiegarden_assetpack_37
+  - first:
+      213: 866966242611613161
+    second: veggiegarden_assetpack_38
+  - first:
+      213: 4339777603364258958
+    second: veggiegarden_assetpack_39
+  - first:
+      213: -4867089190943894892
+    second: veggiegarden_assetpack_40
+  - first:
+      213: -8535216361600676633
+    second: veggiegarden_assetpack_41
+  - first:
+      213: -8439544862228970613
+    second: veggiegarden_assetpack_42
+  - first:
+      213: 3400687729696194984
+    second: veggiegarden_assetpack_43
+  - first:
+      213: 4051911453626656648
+    second: veggiegarden_assetpack_44
+  - first:
+      213: 2802646160662176036
+    second: veggiegarden_assetpack_45
+  - first:
+      213: 660850424551878971
+    second: veggiegarden_assetpack_46
+  - first:
+      213: -4754968003177029767
+    second: veggiegarden_assetpack_47
+  - first:
+      213: 5885384151248478802
+    second: veggiegarden_assetpack_48
+  - first:
+      213: -4248656041905994605
+    second: veggiegarden_assetpack_49
+  - first:
+      213: 7511517592624641819
+    second: veggiegarden_assetpack_50
+  - first:
+      213: -8819958567471923577
+    second: veggiegarden_assetpack_51
+  - first:
+      213: -5243698660861418169
+    second: veggiegarden_assetpack_52
+  - first:
+      213: -3255437533439579766
+    second: veggiegarden_assetpack_53
+  - first:
+      213: 1947887375864242108
+    second: veggiegarden_assetpack_54
+  - first:
+      213: 7059514342742324258
+    second: veggiegarden_assetpack_55
+  - first:
+      213: 3704317232345885082
+    second: veggiegarden_assetpack_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 335
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dddea246672edb780800000000000000
+      internalID: -8665521109876412963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 335
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad962d3d5f113f60800000000000000
+      internalID: 8012219697387183521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 335
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64885378abc699b0800000000000000
+      internalID: -5073644005836159894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_3
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 335
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ab815dd74de26e0800000000000000
+      internalID: -1860315959146268074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_4
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 335
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56fd943ec31c5d5b0800000000000000
+      internalID: -5344152915549757595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_5
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 335
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff05bac49591ce230800000000000000
+      internalID: 3669335667729191167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_6
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 324
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e89b50ad9c7b450800000000000000
+      internalID: 6104569758160096908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_7
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 320
+        width: 50
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfda03e4c7f879b30800000000000000
+      internalID: 4294058533771587069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_8
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 336
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2302d978d9000be0800000000000000
+      internalID: -1513198649435094228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_9
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 336
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65d8340aa7eda7e0800000000000000
+      internalID: -1752489962575964818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_10
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 319
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e96efe231d26250800000000000000
+      internalID: 5936537275531173464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_11
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 303
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4e5bb8cf3d75790800000000000000
+      internalID: -7541325969379433294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_12
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 303
+        width: 55
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b0225aeae438450800000000000000
+      internalID: 6089797633136790348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_13
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 323
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dba774ef3032e770800000000000000
+      internalID: 8638520086224153558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_14
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 323
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a348e59c454d260800000000000000
+      internalID: 7121410134630480508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_15
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 323
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197fc0af9041ecc50800000000000000
+      internalID: 6687304529774180241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_16
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 321
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3c2bdd918a896b0800000000000000
+      internalID: -5289292933299518496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_17
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 321
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 748bed0b57f685af0800000000000000
+      internalID: -407453215007786937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_18
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 303
+        width: 38
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ad58620b8e7ffa0800000000000000
+      internalID: -5766884954566436328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_19
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 303
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994b5921fa0492fb0800000000000000
+      internalID: -4672132017744923495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_20
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 303
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f379d38b2a2aa5dd0800000000000000
+      internalID: -2496504223664072897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_21
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 271
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8578978778cb3cf40800000000000000
+      internalID: 5747644839482722136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_22
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 255
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69670aa8c50aea30800000000000000
+      internalID: 4245211958154324334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 255
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e9f938e455a0cb0800000000000000
+      internalID: -4897007849107906941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 183
+        width: 195
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5b7f95bb6e9e020800000000000000
+      internalID: 2371680371129955752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_25
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 288
+        width: 87
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c45df78fbf61f0c0800000000000000
+      internalID: -4543727680629156664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_26
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 272
+        width: 87
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbbbf573db28fb6a0800000000000000
+      internalID: -6431277993672328259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_27
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 255
+        width: 87
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2e4d76654d8c6d0800000000000000
+      internalID: -2969890486676561223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_28
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 79
+        width: 35
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0433f598c595afbc0800000000000000
+      internalID: -3748585485855935680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_29
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 159
+        width: 59
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8437d8b9912aa46b0800000000000000
+      internalID: -5311254579662458040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_30
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 208
+        width: 50
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21c2d86f16a30c00800000000000000
+      internalID: 865718207218106668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_31
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 223
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332207e9905a42990800000000000000
+      internalID: -7411617626013556173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_32
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 194
+        width: 78
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439a026e349b27e80800000000000000
+      internalID: -8182273871703922380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_33
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 213
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e5c536199666ef0800000000000000
+      internalID: -115288667293196767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_34
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 153
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11526f43979e3f180800000000000000
+      internalID: -9082659316687297263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_35
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 194
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee63953cf99559530800000000000000
+      internalID: 3861090798252144366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0974de7179816ebf0800000000000000
+      internalID: -295521688325634160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_37
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 159
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9900def1155cd800800000000000000
+      internalID: 638478782957619612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_38
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 89
+        width: 50
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9edce1b4435180c00800000000000000
+      internalID: 866966242611613161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_39
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 111
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8409b4bcbcf93c30800000000000000
+      internalID: 4339777603364258958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_40
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 130
+        width: 78
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49255a3fa20a47cb0800000000000000
+      internalID: -4867089190943894892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_41
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 95
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec80bdc0f1dc8980800000000000000
+      internalID: -8535216361600676633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_42
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 111
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b838ed499a6b0ea80800000000000000
+      internalID: -8439544862228970613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_43
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 95
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a14298f87ba13f20800000000000000
+      internalID: 3400687729696194984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_44
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 95
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887e0c6cff74b3830800000000000000
+      internalID: 4051911453626656648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_45
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 95
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421a16585dff4e620800000000000000
+      internalID: 2802646160662176036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_46
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 95
+        width: 25
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b31b415b5ffcb2900800000000000000
+      internalID: 660850424551878971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_47
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 66
+        width: 78
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97fd8444bc5f20eb0800000000000000
+      internalID: -4754968003177029767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_48
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 15
+        width: 82
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25221e514b51da150800000000000000
+      internalID: 5885384151248478802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_49
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 16
+        width: 19
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394406917ddb905c0800000000000000
+      internalID: -4248656041905994605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_50
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 16
+        width: 31
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b173d78e3754e3860800000000000000
+      internalID: 7511517592624641819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_51
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 79
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e3c2cb966399580800000000000000
+      internalID: -8819958567471923577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_52
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 17
+        width: 31
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745e92aa9d3aa37b0800000000000000
+      internalID: -5243698660861418169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_53
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 31
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a892cd6bfcc52d2d0800000000000000
+      internalID: -3255437533439579766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_54
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 22
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf1bdc7f39480b10800000000000000
+      internalID: 1947887375864242108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_55
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 31
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2247eed44ee68f160800000000000000
+      internalID: 7059514342742324258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: veggiegarden_assetpack_56
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 31
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99a55185e0686330800000000000000
+      internalID: 3704317232345885082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
