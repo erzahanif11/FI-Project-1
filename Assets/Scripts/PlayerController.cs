@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private string speedParameterName = "Speed";
     [SerializeField] private string verticalVelocityParameterName = "VerticalVelocity";
     [SerializeField] private string isGroundedParameterName = "isGrounded";
+    [SerializeField] private string attackParameterName = "Attacking";
 
     [Header("Movement")]
     [SerializeField] private float moveSpeed = 5f;
@@ -20,13 +21,21 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float groundCheckRadius;
     [SerializeField] private LayerMask groundLayer;
 
-    [Header("Dont edit this")]
+    [Header("Attack")]
+    [SerializeField] private float attackDamage = 1f;
+    [SerializeField] private float attackCooldown = 0.5f;
+    [SerializeField] private float attackRange = 0.5f;
+    [SerializeField] private Transform attackPoint;
+    [SerializeField] private LayerMask enemyLayer;
+
+    [Header("Dont edit")]
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Animator animator;
     [SerializeField] private float moveDirection = 0f;
     [SerializeField] private bool jump = false;
     [SerializeField] private bool isGrounded;
     [SerializeField] public float verticalVelocity = 0f;
+    [SerializeField] private float lastAttackTime = 0f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
@@ -97,6 +106,34 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    void Attack()
+    {
+        if (Time.time < lastAttackTime + attackCooldown) return;
+        lastAttackTime = Time.time;
+
+        animator.SetTrigger(attackParameterName);
+    }
+
+    void giveDamage()
+    {
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayer);
+
+        foreach (Collider2D enemyCollider in hitEnemies)
+        {
+            IDamageable damageable = enemyCollider.GetComponent<IDamageable>();
+            damageable.TakeDamage(attackDamage);
+
+            EnemyController enemy = enemyCollider.GetComponent<EnemyController>();
+            if (enemy != null)
+            {
+                Vector2 forceDirection = (enemyCollider.transform.position - transform.position).normalized;
+                Vector2 knockbackDirection = new Vector2(forceDirection.x, 0.5f).normalized;
+                float forceMagnitude = 3f;
+                enemy.Knockback(knockbackDirection * forceMagnitude);
+            }
+        }
+    }
+
  #region Input System
     public void OnMove(InputValue value)
     {
@@ -111,6 +148,11 @@ public class PlayerController : MonoBehaviour
         {
             jump = true;
         }
+    }
+
+    public void OnAttack(InputValue value)
+    {
+        Attack();
     }
  #endregion
 }
