@@ -1,6 +1,7 @@
 using UnityEditor.AnimatedValues;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -23,7 +24,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Attack")]
     [SerializeField] private float attackDamage = 1f;
-    [SerializeField] private float attackCooldown = 0.5f;
+    [SerializeField] private float attackCooldown = 1.5f;
     [SerializeField] private float attackRange = 0.5f;
     [SerializeField] private Transform attackPoint;
     [SerializeField] private LayerMask enemyLayer;
@@ -31,16 +32,22 @@ public class PlayerController : MonoBehaviour
     [Header("Dont edit")]
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Animator animator;
+    [SerializeField] private Slider cooldownSlider;
     [SerializeField] private float moveDirection = 0f;
     [SerializeField] private bool jump = false;
     [SerializeField] private bool isGrounded;
     [SerializeField] public float verticalVelocity = 0f;
     [SerializeField] private float lastAttackTime = 0f;
+    [SerializeField] private bool isAttacking = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        if (cooldownSlider != null)
+        {
+            cooldownSlider.gameObject.SetActive(false);
+        }
     }
 
     // Update is called once per frame
@@ -48,6 +55,7 @@ public class PlayerController : MonoBehaviour
     {
         GroundCheck();
         SetAnimationParameters();
+        UpdateCooldownBar();
     }
 
     private void FixedUpdate()
@@ -108,10 +116,21 @@ public class PlayerController : MonoBehaviour
 
     void Attack()
     {
+        if (isAttacking) return;
         if (Time.time < lastAttackTime + attackCooldown) return;
-        lastAttackTime = Time.time;
-
+        isAttacking = true;
         animator.SetTrigger(attackParameterName);
+    }
+
+    void UpdateCooldownBar()
+    {
+        if (cooldownSlider == null) return;
+
+        float timeSinceLastAttack = Time.time - lastAttackTime;
+        float progress = Mathf.Clamp01(timeSinceLastAttack / attackCooldown);
+
+        cooldownSlider.value = progress;
+        cooldownSlider.gameObject.SetActive(progress < 1f);
     }
 
     void giveDamage()
@@ -128,13 +147,24 @@ public class PlayerController : MonoBehaviour
             {
                 Vector2 forceDirection = (enemyCollider.transform.position - transform.position).normalized;
                 Vector2 knockbackDirection = new Vector2(forceDirection.x, 0.5f).normalized;
-                float forceMagnitude = 3f;
+                float forceMagnitude = 2.5f;
                 enemy.Knockback(knockbackDirection * forceMagnitude);
             }
         }
     }
 
- #region Input System
+    public void OnAttackAnimationEnd()
+    {
+        if (cooldownSlider != null)
+        {
+            cooldownSlider.value = 0f;
+            cooldownSlider.gameObject.SetActive(true);
+        }
+        lastAttackTime = Time.time;
+        isAttacking = false;
+    }
+
+    #region Input System
     public void OnMove(InputValue value)
     {
         Vector2 input = value.Get<Vector2>();

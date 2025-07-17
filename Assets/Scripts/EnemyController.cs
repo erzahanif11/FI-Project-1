@@ -1,10 +1,27 @@
 using UnityEngine;
+using UnityEngine.InputSystem.XR.Haptics;
 
 public class EnemyController : MonoBehaviour, IDamageable
 {
+    [Header("Animation")]
+    [SerializeField] private Animator animator;
+    [SerializeField] private string speedParameterName = "Speed";
+    [SerializeField] private string isDeadParameterName = "IsDead";
+    [SerializeField] private string attackedParameterName = "Attacked";
+
+    [Header ("Stat")]
     [SerializeField] private float health = 2f;
     [SerializeField] protected bool knockable = true;
     bool isDead = false;
+
+    void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
+    void Update()
+    {
+        animator.SetBool(isDeadParameterName, isDead);
+    }
     public void TakeDamage(float damage)
     {
         if (health > damage)
@@ -16,7 +33,7 @@ public class EnemyController : MonoBehaviour, IDamageable
             health = 0;
             isDead = true;
         }
-        Die();
+        animator.SetTrigger(attackedParameterName);
     }
 
     public void Knockback(Vector2 force)
@@ -33,9 +50,6 @@ public class EnemyController : MonoBehaviour, IDamageable
 
     void Die()
     {
-        if (isDead)
-        {
-            Destroy(gameObject);
-        }
+       Destroy(gameObject);
     }
 }
